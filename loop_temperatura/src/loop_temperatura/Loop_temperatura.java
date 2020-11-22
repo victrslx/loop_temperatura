@@ -11,8 +11,8 @@ public class Loop_temperatura {
         f = (c*1.8+32);
         System.out.print("Valor da converção é : "+f);
         i = 10;
-        while (1<=100){
-        a = f+1;
+        while (i<=100){
+        a = f+i;
         System.out.println(a);
         i =i+10;       
         }
